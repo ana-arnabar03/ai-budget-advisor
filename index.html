@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Budget Advisor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>💰 AI Budget Advisor</h1>
+    <p class="subtitle">Enter your finances and get personalized AI advice</p>
+
+    <label>Monthly Income ($)</label>
+    <input type="number" id="income" placeholder="e.g. 3000" />
+
+    <label>Expenses</label>
+    <div id="expenses">
+      <div class="expense-row">
+        <input type="text" placeholder="Category (e.g. Rent)" class="expense-name" />
+        <input type="number" placeholder="Amount ($)" class="expense-amount" />
+      </div>
+    </div>
+
+    <button id="add-expense">+ Add Expense</button>
+    <button id="analyze">Analyze My Budget</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
