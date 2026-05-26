@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #2c2c2c;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 28px;
+  color: #2d6a4f;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 28px;
+  font-size: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 16px;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.expense-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.expense-row input {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+button {
+  display: inline-block;
+  margin-top: 12px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#add-expense {
+  background-color: #e8f5e9;
+  color: #2d6a4f;
+}
+
+#analyze {
+  background-color: #2d6a4f;
+  color: white;
+}
+
+#result {
+  margin-top: 28px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #2d6a4f;
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 1.6;
+  display: none;
+}
